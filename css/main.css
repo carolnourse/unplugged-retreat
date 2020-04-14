@@ -98,6 +98,101 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------- Base Header - Footer Styles -------------------- */
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Header Styles */
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* -------------------- Mobile Styles - Home Page -------------------- */
+
+.hero-area {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features {
+  display: flex;
+  flex-grow: row wrap;
+  align-content: center;
+}
+
+.features article {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-flow: row wrap;
+}
+
+.reviews {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* -------------------- Mobile Styles - About Page -------------------- */
+
+.mission {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.contact-section {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* -------------------- Mobile Styles - FAQ Page -------------------- */
+
+.faq {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Footer */
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer .social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -262,4 +357,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
