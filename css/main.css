@@ -716,6 +716,10 @@ input[type=button] {
       width: 45%;
     }
 
+    .map-container {
+      padding-bottom: 45%;
+    }
+
     .contact-section .content-wrapper h2 {
       width: 85%;
     }
@@ -815,6 +819,10 @@ input[type=button] {
 
     .contact-section h3 {
       margin-top: 0;
+    }
+
+    .map-container {
+      padding-bottom: 37.5%;
     }
 
 /* ==========================================================================
