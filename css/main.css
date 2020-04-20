@@ -341,7 +341,7 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 35px;
 }
 
 .features article {
@@ -359,6 +359,11 @@ input[type=button] {
 
 .features p {
   margin: 0;
+}
+
+.features i {
+	font-size: 3.75em;
+        margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -681,6 +686,10 @@ input[type=button] {
      margin: 100px 0;
    }
 
+   .features h2 {
+     margin-bottom: 10px;
+   }
+
    .features article {
      margin: 25px 60px;
    }
@@ -800,12 +809,13 @@ input[type=button] {
 
     /* Features */
     .features h2 {
-        width: 90%;
+      margin-bottom: 70px;
+      width: 90%;
     }
 
     /* Reviews */
     .reviews article div {
-        width: 50%;
+      width: 50%;
     }
 
 /* ==========================================================================
