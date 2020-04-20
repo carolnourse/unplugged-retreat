@@ -155,7 +155,7 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
@@ -270,7 +270,7 @@ footer .copyright {
 /* Hero Area */
 
 .hero-area {
-  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat;
+  background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
   background-size: cover;
   display: flex;
   flex-flow: row wrap;
@@ -329,7 +329,7 @@ input[type=button] {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background: url('../img/rawpixel-800820-unsplash1.jpg') center no-repeat;
+  background: url('../img/rawpixel-800820-unsplash1-2.jpg') center no-repeat #333;
   background-size: cover;
 }
 
@@ -738,6 +738,11 @@ input[type=button] {
 
     header nav ul {
       font-size: 1.125em;
+      justify-content: flex-end;
+    }
+
+    header nav ul li {
+      padding-left: 35px;
     }
 
     .hero-area .content-wrapper {
